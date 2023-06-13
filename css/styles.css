@@ -28,10 +28,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--color-iris);
 }
 .header-logo-part {
@@ -41,9 +39,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
   color: var(--color-navy-blue-modal);
 }
 .nav-link:hover,
@@ -56,9 +52,7 @@ body {
 .address-link {
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
   color: var(--color-slate);
 }
 .address-link:hover,
@@ -71,10 +65,8 @@ body {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
-
   text-align: center;
   letter-spacing: 0.02em;
-
   color: var(--color-white);
 }
 .hero-button {
@@ -138,6 +130,63 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+footer {
+  background: var(--color-grey);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+.footer-logo-part {
+  color: var(--color-cloud);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+}
+
+.portfolio-button {
+  background-color: var(--color-cloud);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--color-ocean);
+  color: var(--color-white);
+}
+.portfolio {
+  background-color: var(--color-white);
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
