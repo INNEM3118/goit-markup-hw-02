@@ -137,7 +137,7 @@ body {
   background-color: var(--color-navy-blue);
 }
 .footer-logo {
-  font-family: "Raleway", sans serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -161,8 +161,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--color-iris);
